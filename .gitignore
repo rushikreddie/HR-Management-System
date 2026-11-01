@@ -218,3 +218,81 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ==============================
+# AI / ML / LLM
+# ==============================
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.gguf
+*.tflite
+*.pb
+*.ckpt
+
+# Hugging Face cache
+.cache/huggingface/
+huggingface/
+transformers_cache/
+
+# ML experiment tracking
+mlruns/
+wandb/
+runs/
+lightning_logs/
+
+# Vector databases
+chroma/
+chroma_db/
+qdrant_storage/
+.faiss/
+
+# ==============================
+# API KEYS AND SECRETS
+# ==============================
+
+.env
+.env.*
+!.env.example
+secrets/
+credentials.json
+service-account.json
+
+# ==============================
+# DOCKER
+# ==============================
+
+.docker/
+docker-data/
+
+# ==============================
+# MAP SERVER / GIS
+# ==============================
+
+*.mbtiles
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.tif
+*.tiff
+
+# ==============================
+# MACOS
+# ==============================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ==============================
+# LOGS AND TEMPORARY FILES
+# ==============================
+
+*.log
+logs/
+tmp/
+temp/
